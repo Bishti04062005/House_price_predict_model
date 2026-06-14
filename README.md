@@ -33,7 +33,11 @@ A Linear Regression model from scikit-learn is used for predicting house prices.
 To run this notebook and predict house prices:
 
 1.Clone the repository (if hosted on GitHub).
+
 2.Open the Jupyter Notebook (or Google Colab).
+
 3.Install Dependencies: Ensure you have kagglehub, pandas, scikit-learn, matplotlib, and seaborn installed.
+
 4.Run all cells: Execute the cells sequentially to download data, preprocess it, train the model, and evaluate its performance.
+
 5.Make Predictions: Modify the new_house_features dictionary in the last code cell to input your desired house features and get a price prediction.
