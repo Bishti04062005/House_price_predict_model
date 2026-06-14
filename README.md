@@ -10,14 +10,23 @@ A Linear Regression model from scikit-learn is used for predicting house prices.
 
 # Notebook Contents
 1.Data Loading: Downloads the dataset from Kaggle Hub.
+
 2.Data Preprocessing:
+   
    -->Converts 'yes'/'no' columns to 1/0.
+   
    -->Maps 'furnishingstatus' to numerical values (unfurnished: 0, semi-furnished: 1, furnished: 2).
+
 3.Train-Test Split: Splits the data into training and testing sets.
+
 4.Feature Scaling: Applies StandardScaler to normalize numerical features.
+
 5.Model Training: Trains a LinearRegression model on the scaled training data.
+
 6.Model Evaluation: Evaluates the model's performance using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R2) score.
+
 7.Visualization: Plots actual vs. predicted prices to visualize model performance.
+
 8.Prediction: Includes a section to predict prices for new house features after applying the same preprocessing steps.
 
 # How to Use
